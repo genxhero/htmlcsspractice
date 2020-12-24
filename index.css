@@ -6,6 +6,11 @@ body {
   font-family: sans-serif;
 }
 
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
 .poem-container {
   display: flex;
   flex-direction: column;
