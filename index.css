@@ -3,6 +3,7 @@ body {
   min-height: 40rem;
   background: grey;
   padding: 2rem;
+  font-family: sans-serif;
 }
 
 .poem-container {
@@ -21,6 +22,24 @@ body {
   margin-left: 1rem;
 }
 
-.line-odd {
+.image {
+    width: 20rem;
+}
 
+.image-container {
+    width: 20rem;
+    display: flex;
+    position: relative;
+}
+
+.image-subtitle {
+    text-align: center;
+    font-weight: bolder;
+    background: white;
+}
+
+.image-subtitle-container {
+   position: absolute;
+   bottom: .5rem;
+   width: 100%;
 }
