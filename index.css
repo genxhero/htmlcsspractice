@@ -4,3 +4,23 @@ body {
   background: grey;
   padding: 2rem;
 }
+
+.poem-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 1rem;
+  font-weight: 500;
+  background: white;
+  border-radius: 2rem;
+  /* margin: 3rem; */
+  width: fit-content;
+}
+
+.line-even{
+  margin-left: 1rem;
+}
+
+.line-odd {
+
+}
