@@ -18,7 +18,8 @@ body {
   text-align: left;
   padding: .75rem;
   font-weight: 200;
-  background: white;
+  background: blue;
+  color: white;
   border-radius: 2rem;
   width: fit-content;
 }
@@ -45,7 +46,9 @@ body {
 }
 
 .image-container:hover .image-subtitle-container, .image-container.hover .image-subtitle-container { 
-    display: block; 
+    /* display: block;  */
+    visibility: visible;
+    transition: all .4s;
 }
 
 
@@ -62,14 +65,18 @@ body {
    position: absolute;
    bottom: .5rem;
    width: 100%;
-    display: none;
+   visibility: hidden;
+    /* display: none; */
+}
+
+.line {
+    padding: .2rem;
 }
 
 .line:hover {
     transition: all .2s;
     font-weight: bolder;
     border-radius: 4px;
-    padding: .2rem;
     cursor:pointer;
-    background: lightblue;
+    background: navy;
 }
