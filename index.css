@@ -6,9 +6,26 @@ body {
   font-family: sans-serif;
 }
 
+#title {
+    font-weight: 200;
+    color: white;
+    margin-top: 4rem;
+}
+
+#intro {
+    background: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: left;
+}
+
 .main {
     display: flex;
     justify-content: space-around;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .poem-container {
